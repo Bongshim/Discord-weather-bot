@@ -6,7 +6,6 @@ client = discord.Client()
 my_secret = os.environ['TOKEN']
 weather_secret = os.environ['open_weather_api_key']
 
-
 # Get data from Open Weather API
 def get_city_geo(c, w):
   url = "http://api.openweathermap.org/geo/1.0/direct"
